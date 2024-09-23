@@ -7,10 +7,6 @@ use Jsq\EncryptionStreams\Cbc;
 use Psr\Http\Message\StreamInterface;
 use Jsq\EncryptionStreams\AesEncryptingStream;
 use Jsq\EncryptionStreams\AesDecryptingStream;
-use Jsq\EncryptionStreams\HashingStream;
-use Jsq\EncryptionStreams\HmacStream;
-use GuzzleHttp\Psr7\Utils;
-use Jsq\EncryptionStreams\CipherMethod;
 
 class WhatsAppMediaEncryption
 {
