@@ -1,0 +1,23 @@
+{
+    "name": "pavel/app",
+    "description": "WhatsAppMediaEncryption example app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pavel",
+            "email": "pavelbalandin@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../packages/whatsapp-media-encryption"
+        }
+    ],
+    "require": {
+        "ninajah/whatsapp-media-encryption": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
